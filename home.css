@@ -39,6 +39,14 @@ body {
 
 }
 
+h6{
+  font-size: 10px;
+  font-family: Arial;
+  text-align: center;
+  color: white;
+
+}
+
 .cake {
     position: absolute;
     width: 250px;
@@ -374,7 +382,7 @@ body {
   div#background {
     height: 1500px;
     width: 100%;
-    background-image: url(http://garchitecture.ca/php/images/headers/wood.jpg);
+    
     padding-top: 20px;
   }
   
@@ -382,6 +390,7 @@ body {
     width: 1200px;
     margin: auto;
     padding-top: 70px;
+    padding-left: 170p;
   }
   
   

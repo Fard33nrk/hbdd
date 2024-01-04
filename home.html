@@ -6,9 +6,11 @@
 </head>
 
 <body>
-
+  <audio id="song" src="count_on_me.mp3">
     <canvas id="c" style="width:100%"></canvas>
-    <div class="bdwish">HAPPY BIRTHDAY SANA!!!</div>
+    <div class="bdwish">HAPPY BIRTHDAY SANA!!!
+      <h6>click anywhere on the screen and blow the candles</h6>
+    </div>
 
     <div class="cake">
         <div class="plate"></div>
@@ -737,6 +739,11 @@ document.ontouchstart = evt => birthday.onClick(evt)
   	
 
   })()
+
+  window.addEventListener('click', () => {
+    document.getElementById("song").play();
+  
+  })
 
 </script>
 
